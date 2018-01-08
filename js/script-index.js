@@ -14,9 +14,9 @@ $(document).ready( function(){
 * marcado el atributo "highlighted" como TRUE
 */
 
-$(function printNews){
-	$("#noticia").append("p");
-}
+$(function (){
+	$("#noticia").text('Nuevas Recetas');
+	});
 
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes:', recipesArray);
